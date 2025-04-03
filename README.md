@@ -21,3 +21,5 @@ To run this project locally:
 1. **Clone the repository**
    ```bash
    git clone https://github.com/ts-31/Portfolio.git
+  
+https://portfolio-d5x256q5q-tejas-projects-9e04ed37.vercel.app/
