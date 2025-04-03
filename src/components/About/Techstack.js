@@ -1,27 +1,24 @@
+// Techstack.js
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
   DiNodejs,
   DiMongodb,
   DiPython,
-  DiGit,
-  DiJava,
+  DiGit
 } from "react-icons/di";
 import {
   SiRedis,
   SiFirebase,
   SiNextdotjs,
-  SiSolidity,
   SiPostgresql,
   SiTypescript,
   SiJavascript
 } from "react-icons/si";
 import { TbBrandReactNative } from "react-icons/tb";
 import { SiGitlab, SiHugo } from "react-icons/si";
-
 
 function Techstack() {
   return (
