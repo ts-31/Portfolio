@@ -6,7 +6,7 @@ import Particle from "../Particle";
 // import emotion from "../../Assets/Projects/emotion.png";
 // import editor from "../../Assets/Projects/codeEditor.png";
 import budgetBuddy from "../../Assets/Projects/budgetBuddy.png";
-// import suicide from "../../Assets/Projects/suicide.png";
+import gimp from "../../Assets/Projects/gimp.png";
 import bitsOfCode from "../../Assets/Projects/clothe.png";
 
 function Projects() {
@@ -42,8 +42,17 @@ function Projects() {
               demoLink="https://clothes-rental-system-client.vercel.app/"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={gimp}
+              isBlog={false}
+              title="GIMP Extensions Website Generator"
+              description="Multilingual static site generator for GIMP Extensions using Hugo. Parsed AppStream XML metadata into 70+ localized Markdown files, supporting multiple languages, screenshots, and CI/CD integration. Built for GSoC proposal ranking, showcasing automation, content pipelines, and multilingual UX. 🌐"
+              ghLink="https://gitlab.gnome.org/Infrastructure/gimp-extensions-web/-/merge_requests/4"
+              demoLink="https://gimp-extensions-web-a83ffe.pages.gitlab.gnome.org/" 
+            />
+          </Col>
 
-          
 
          
         </Row>
