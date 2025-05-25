@@ -22,4 +22,4 @@ To run this project locally:
    ```bash
    git clone https://github.com/ts-31/Portfolio.git
   
-https://portfolio-d5x256q5q-tejas-projects-9e04ed37.vercel.app/
+https://portfolio-ten-flax-10.vercel.app/
