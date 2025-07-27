@@ -19,20 +19,25 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Hey, I’m <b className="purple">Tejas Sonawane</b>, a passionate{" "}
-              <b className="purple">MERN, React Native, and Python</b> developer
-              who loves building seamless web and mobile applications. I enjoy
-              creating{" "}
-              <b className="purple">scalable, high-performance solutions</b>
-              and tackling complex challenges with creativity and efficiency.
+              Hi, I'm <b className="purple">Tejas Sonawane</b>, a passionate{" "}
+              <b className="purple">MERN Stack</b> and{" "}
+              <b className="purple">React Native</b> developer. I enjoy crafting
+              seamless web and mobile experiences, and continuously explore ways
+              to build performant, scalable solutions.
               <br />
               <br />
-              My core tech stack includes <b className="purple">
-                Node.js
-              </b>, <b className="purple">React.js</b>, and{" "}
-              <b className="purple">Next.js</b>. I’m always exploring new tools
-              and techniques to refine my development process and build better
-              applications.
+              I’ve worked with{" "}
+              <b className="purple">Next.js, Node.js, Express</b> and{" "}
+              <b className="purple">FastAPI</b> to deliver full-stack products,
+              and I’m currently a contributor in{" "}
+              <b className="purple">Google Summer of Code 2025</b> with{" "}
+              <b className="purple">OpenAFS</b>.
+              <br />
+              <br />
+              I'm also an <b className="purple">open-source contributor</b>,
+              curious builder, and GSoC alum who believes in writing clean code,
+              solving real-world problems, and collaborating with global dev
+              communities.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -60,7 +65,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://x.com/"
+                  href="https://x.com/_Tejas_03"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
@@ -70,7 +75,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/tejas-sonawane-5927582a7/"
+                  href="https://www.linkedin.com/in/tejas-sonawane-266ba7364/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
@@ -80,7 +85,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/"
+                  href="https://www.instagram.com/" // Optional
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

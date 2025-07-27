@@ -8,33 +8,39 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Tejas Sonawane</span>.
-            <br />I am a passionate{" "}
-            <span className="purple">MERN, React Native, and Python</span>{" "}
-            developer who loves building modern web and mobile applications.
-            <br />I thrive on creating{" "}
-            <span className="purple">
-              scalable, high-performance solutions
-            </span>{" "}
-            and constantly explore new ways to improve my craft.
+            Hi everyone, I’m <span className="purple">Tejas Sonawane</span>, a
+            passionate developer focused on building impactful{" "}
+            <span className="purple">web and mobile applications</span>.
             <br />
             <br />
-            Apart from coding, some other activities that I enjoy!
+            I work primarily with the{" "}
+            <span className="purple">MERN stack, React Native</span>, and{" "}
+            <span className="purple">Next.js</span>. I’m also proficient in{" "}
+            <span className="purple">Python and FastAPI</span> for building robust
+            backend services.
+            <br />
+            <br />
+            In 2025, I was selected as a contributor for{" "}
+            <span className="purple">Google Summer of Code (GSoC)</span> with{" "}
+            <span className="purple">OpenAFS</span>, where I developed a GNOME Shell
+            extension and contributed to open-source tooling and documentation.
+            <br />
+            <br />
+            I thrive on solving complex problems, writing clean and scalable code,
+            and contributing to the global developer community.
           </p>
+
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Exploring Open Source Projects
             </li>
             <li className="about-activity">
-              <ImPointRight /> Exploring New Technologies
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Traveling
+              <ImPointRight /> Learning AI Agents & System Design
             </li>
           </ul>
 
           <p style={{ color: "rgb(8 168 142 / 96%)" }}>
-            "Strive to build things that make an impact!"{" "}
+            "Strive to build things that make an impact — not just features."
           </p>
           <footer className="blockquote-footer">Tejas Sonawane</footer>
         </blockquote>
