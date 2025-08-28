@@ -9,6 +9,7 @@ import budgetBuddy from "../../Assets/Projects/budgetBuddy.png";
 import gimp from "../../Assets/Projects/gimp.png";
 import bitsOfCode from "../../Assets/Projects/clothe.png";
 import matchMyResume from "../../Assets/Projects/matchmyresume.png";
+import codeclippy from "../../Assets/Projects/codeclippy.png";
 
 function Projects() {
   return (
@@ -61,6 +62,16 @@ function Projects() {
               description="Chrome Extension + Node.js backend that helps users match their resume to job descriptions using Google Gemini API (free tier). Features AI-based suggestions, Google Sign-In via Clerk, secure token flow, PostgreSQL, and job scraping from LinkedIn and Internshala. 🧠📄"
               ghLink="https://github.com/ts-31/MatchMyResume"
               demoLink="https://github.com/ts-31/MatchMyResume"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={codeclippy}
+              isBlog={false}
+              title="CodeClippy - Copy Files Extension"
+              description="A Visual Studio Code extension that lets you browse workspace files in a tree view with checkboxes, and copy selected file contents to clipboard. Features include file path headers, ignoring common folders (node_modules, .git), and a clean panel UI powered by VS Code Webview API. 📂📋"
+              ghLink="https://github.com/ts-31/codeclippy" // replace with your repo link
+              demoLink="https://marketplace.visualstudio.com/items?itemName=ts-31.codeclippy" // replace if published
             />
           </Col>
         </Row>
