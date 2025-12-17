@@ -10,6 +10,7 @@ import gimp from "../../Assets/Projects/gimp.png";
 import bitsOfCode from "../../Assets/Projects/clothe.png";
 import matchMyResume from "../../Assets/Projects/matchmyresume.png";
 import codeclippy from "../../Assets/Projects/codeclippy.png";
+import agenthub from "../../Assets/Projects/agent-hub.png";
 
 function Projects() {
   return (
@@ -70,10 +71,21 @@ function Projects() {
               isBlog={false}
               title="CodeClippy - Copy Files Extension"
               description="A Visual Studio Code extension that lets you browse workspace files in a tree view with checkboxes, and copy selected file contents to clipboard. Features include file path headers, ignoring common folders (node_modules, .git), and a clean panel UI powered by VS Code Webview API. 📂📋"
-              ghLink="https://github.com/ts-31/codeclippy" // replace with your repo link
+              ghLink="https://github.com/ts-31/codeclippy"
               demoLink="https://marketplace.visualstudio.com/items?itemName=ts-31.codeclippy" // replace if published
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={agenthub}
+              isBlog={false}
+              title="AgentHub"
+              description="Minimal chatbot platform allowing users to create multiple agents/projects and chat with them in real-time using Gemini LLM. Built with Next.js, Node.js WebSocket server, Firebase Auth, and MongoDB. Features persistent chat, secure session handling, and file upload support. 🤖💬"
+              ghLink="https://github.com/ts-31/agent-hub" 
+              demoLink="https://agent-hub-h9c8.onrender.com/"
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>
