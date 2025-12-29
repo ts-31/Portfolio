@@ -11,6 +11,7 @@ import bitsOfCode from "../../Assets/Projects/clothe.png";
 import matchMyResume from "../../Assets/Projects/matchmyresume.png";
 import codeclippy from "../../Assets/Projects/codeclippy.png";
 import agenthub from "../../Assets/Projects/agent-hub.png";
+import bookMyDoctor from "../../Assets/Projects/bookmydoctor.png";
 
 function Projects() {
   return (
@@ -32,6 +33,17 @@ function Projects() {
               description="Budget Buddy – A full-stack finance management app that helps users track expenses, set budgets, and analyze spending with interactive charts. Features secure authentication, budget categorization, and real-time insights for better financial control. 🚀"
               ghLink="https://github.com/ts-31/budgetBuddy"
               demoLink="https://budget-buddy-frontend-phi.vercel.app/"
+            />
+          </Col>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bookMyDoctor}
+              isBlog={false}
+              title="BookMyDoctor"
+              description="BookMyDoctor is a full-stack MERN doctor appointment booking platform supporting Patients, Doctors, and Admins. Features JWT-based authentication, role-based dashboards, appointment booking & management, image uploads via Cloudinary, and a scalable REST API deployed on Vercel. 🩺📅"
+              ghLink="https://github.com/ts-31/BookMyDoctor"
+              demoLink="https://client-silk-six-29.vercel.app/"
             />
           </Col>
 
