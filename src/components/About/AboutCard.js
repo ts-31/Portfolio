@@ -8,26 +8,28 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi everyone, I’m <span className="purple">Tejas Sonawane</span>, a
-            passionate developer focused on building impactful{" "}
-            <span className="purple">web and mobile applications</span>.
+            Hi, I’m <span className="purple">Tejas Sonawane</span>, a full-stack
+            developer focused on building reliable{" "}
+            <span className="purple">web and backend systems</span>.
+            <br />
+            <br />I primarily work with the{" "}
+            <span className="purple">MERN stack, Next.js</span>, and{" "}
+            <span className="purple">React Native</span>, and use{" "}
+            <span className="purple">Python & FastAPI</span> to build scalable
+            backend services and APIs.
             <br />
             <br />
-            I work primarily with the{" "}
-            <span className="purple">MERN stack, React Native</span>, and{" "}
-            <span className="purple">Next.js</span>. I’m also proficient in{" "}
-            <span className="purple">Python and FastAPI</span> for building robust
-            backend services.
+            In <span className="purple">
+              Google Summer of Code (GSoC) 2025
+            </span>{" "}
+            with <span className="purple">OpenAFS</span>, I worked remotely on
+            production open-source software — developing a GNOME Shell
+            extension, shipping reviewed PRs, and collaborating with global
+            mentors.
             <br />
-            <br />
-            In 2025, I was selected as a contributor for{" "}
-            <span className="purple">Google Summer of Code (GSoC)</span> with{" "}
-            <span className="purple">OpenAFS</span>, where I developed a GNOME Shell
-            extension and contributed to open-source tooling and documentation.
-            <br />
-            <br />
-            I thrive on solving complex problems, writing clean and scalable code,
-            and contributing to the global developer community.
+            <br />I enjoy ownership-driven work, writing clean and maintainable
+            code, and solving real-world problems in fast-moving engineering
+            teams.
           </p>
 
           <ul>

@@ -18,34 +18,41 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
+
             <p className="home-about-body">
-              Hi, I'm <b className="purple">Tejas Sonawane</b>, a passionate{" "}
-              <b className="purple">MERN Stack</b> and{" "}
-              <b className="purple">React Native</b> developer. I enjoy crafting
-              seamless web and mobile experiences, and continuously explore ways
-              to build performant, scalable solutions.
+              Hi, I’m <b className="purple">Tejas Sonawane</b> — a{" "}
+              <b className="purple">full-stack developer</b> focused on building
+              scalable web applications and backend systems.
               <br />
               <br />
-              I’ve worked with{" "}
-              <b className="purple">Next.js, Node.js, Express</b> and{" "}
-              <b className="purple">FastAPI</b> to deliver full-stack products,
-              and I’m currently a contributor in{" "}
-              <b className="purple">Google Summer of Code 2025</b> with{" "}
-              <b className="purple">OpenAFS</b>.
+              I work with{" "}
+              <b className="purple">
+                React, Next.js, Node.js, Express, PostgreSQL
+              </b>{" "}
+              and <b className="purple">FastAPI</b>, and enjoy turning real-world
+              problems into clean, maintainable solutions.
               <br />
               <br />
-              I'm also an <b className="purple">open-source contributor</b>,
-              curious builder, and GSoC alum who believes in writing clean code,
-              solving real-world problems, and collaborating with global dev
-              communities.
+              I’m a{" "}
+              <b className="purple">
+                Google Summer of Code (GSoC) 2025 contributor with OpenAFS
+              </b>
+              , where I worked remotely on production open-source software,
+              collaborating with global mentors and shipping reviewed PRs.
+              <br />
+              <br />
+              I enjoy ownership-driven work, writing clean code, and collaborating
+              in fast-moving, real-world engineering teams.
             </p>
           </Col>
+
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
+
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
@@ -63,6 +70,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
+
               <li className="social-icons">
                 <a
                   href="https://x.com/_Tejas_03"
@@ -73,6 +81,7 @@ function Home2() {
                   <AiOutlineTwitter />
                 </a>
               </li>
+
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/tejas-266ba7364/"
@@ -83,9 +92,10 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
+
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/" // Optional
+                  href="https://www.instagram.com/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
